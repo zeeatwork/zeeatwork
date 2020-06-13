@@ -1,0 +1,65 @@
+/*first fonts, then boxes, then colors*/
+h1 {
+  color: #2ec4b6;
+  font-family: Monospace, Courier, "Courier New";
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 34px;
+}
+h2,h3 {
+  color: #ff9f1c;
+  font-weight: 500px;
+  font-family: Monospace, Courier, "Courier New";
+}
+
+ul,ol {
+  color: #011627;
+  font-weight: 300px;
+  font-family: "Courier New", Courier;
+}
+
+
+p {
+  color: darkslategrey;
+  font-family: "Courier New", "Gill Sans";
+  font-size: 22px;
+}
+/* Top Navigation Bar formatting*/
+.topnav {
+  background-color: #011627;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e71d36;
+  color: white;
+}
+
+footer {
+    background-color: #e71d36;
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+}
